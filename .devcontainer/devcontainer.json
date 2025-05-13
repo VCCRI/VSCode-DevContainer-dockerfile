@@ -15,6 +15,6 @@
         }
     },
     "postCreateCommand": "echo 'Container setup complete!'",
-    "workspaceFolder": "/workspace",
-    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind"
+    "workspaceFolder": "./"
+    // "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind"
 }
