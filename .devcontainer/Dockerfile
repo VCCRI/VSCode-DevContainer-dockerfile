@@ -5,8 +5,7 @@ FROM ubuntu:20.04
 RUN apt-get update && apt-get install -y \
     curl \
     git \
-    vim \
-    R \
-    libcurl4-openssl-dev
+    vim 
+
 # Set the working directory
 # WORKDIR /workspace
